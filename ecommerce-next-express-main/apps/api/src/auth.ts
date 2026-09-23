@@ -2,6 +2,9 @@ import type { NextFunction, Request, Response } from "express";
 import jwt from "jsonwebtoken";
 import { supabase } from "./supabase.js";
 
+
+nhhhhhh:
+
 export type AuthedRequest = Request & {
   user?: {
     id: string;
